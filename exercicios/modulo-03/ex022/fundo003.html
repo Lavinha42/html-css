@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundo</title>
+    <title>Posição dos Fundos</title>
     <style>
         body {
             background-color: rgb(255, 255, 255);
@@ -19,19 +19,26 @@
             border: 1px solid black;
         }
 
-        div#area001 {
+        .bloco{
+            height: 396px;
+            width: 600px;
+            border: 2px solid black;
+            border-radius: 20px;
+        }
+
+        #area001 {
             background-position: left top;
         }
 
-        div#area002 {
+        #area002 {
             background-position: right bottom;
         }
 
-        div#area003 {
+        #area003 {
             background-position: center top;
         }
 
-        div#area004 {
+        #area004 {
             background-position: center center;
         }
     </style>
@@ -40,12 +47,12 @@
     <h1>Posição de um background</h1>
 
     <h2>background-position: left top;</h2>
-    <div id="area001"></div>
+    <div class="bloco" id="area001"></div>
     <h2>background-position: right bottom;</h2>
-    <div id="area002"></div>
+    <div class="bloco" id="area002"></div>
     <h2>background-position: center top;</h2>
-    <div id="area003"></div>
+    <div class="bloco" id="area003"></div>
     <h2>background-position: center center;</h2>
-    <div id="area004"></div>
+    <div class="bloco" id="area004"></div>
 </body>
 </html>
